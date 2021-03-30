@@ -1,10 +1,10 @@
 function createBubble() {
   const section = document.querySelector("section");
   const createElement = document.createElement("span");
-  var size = Math.random() * 60;
+  var size = Math.random() * 100;
 
-  createElement.style.width = 20 + size + "px";
-  createElement.style.height = 20 + size + "px";
+  createElement.style.width = 30 + size + "px";
+  createElement.style.height = 30 + size + "px";
   createElement.style.left = Math.random() * innerWidth + "px";
   section.appendChild(createElement);
 
